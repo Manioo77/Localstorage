@@ -21,3 +21,5 @@ _In my project, I used localstorage to save information whether the user has alr
 - Install local http server `npm install -g live-server` - [website](https://www.npmjs.com/package/live-server).
 
 - Then run using `live-server`
+
+- If localstorage cookie:true is created, the popup will not be displayed, you need to delete localstorage cookie:true
