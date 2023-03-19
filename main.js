@@ -2,8 +2,8 @@ const containerCookie = document.querySelector('.container')
 const btnCookie = document.querySelector('.container__button')
 
 const cookie = () => {
-	const cookie = localStorage.getItem('cookie')
-	if (cookie) {
+	const cookieTrue = localStorage.getItem('cookie')
+	if (cookieTrue) {
 		containerCookie.classList.add('hide')
 	}
 }
